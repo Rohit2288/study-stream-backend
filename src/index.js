@@ -153,7 +153,7 @@ const httpServer = createServer(app);
 const allowedOrigins = [
   'http://localhost:5173',  // Vite default development port
   'http://localhost:3000',  // Alternative development port
-  'https://iet-study-stream.netlify.app',
+  'https://ietstudystream.netlify.app',
   process.env.CORS_ORIGIN
 ].filter(Boolean); // Remove any undefined values
 
